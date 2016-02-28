@@ -1,0 +1,94 @@
+{
+
+  "intents": [
+
+    {
+
+      "intent": "AnswerIntent",
+
+      "slots": [
+
+        {
+
+          "name": "Answer",
+
+          "type": "DELETE"
+
+        }
+
+      ]
+
+    },
+
+        {
+
+      "intent": "AnswerOnlyIntent",
+
+      "slots": [
+
+        {
+
+          "name": "Read",
+
+          "type": "READ"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "intent": "AMAZON.StartOverIntent"
+
+    },
+
+    {
+
+      "intent": "AMAZON.RepeatIntent"
+
+    },
+
+
+    {
+
+      "intent": "AMAZON.StopIntent"
+
+    },
+
+    {
+
+      "intent": "AMAZON.CancelIntent"
+
+    }
+
+  ]
+
+}
+
+
+Type	Values	
+DELETE	Delete
+READ	Read
+
+
+
+AnswerIntent You said to delete {Answer}
+
+AnswerOnlyIntent {Read}
+
+
+AMAZON.StartOverIntent let's start over
+
+AMAZON.StartOverIntent can you do it again for me
+
+AMAZON.RepeatIntent repeat it again
+
+AMAZON.RepeatIntent can you reread it
+
+AMAZON.StopIntent stop
+
+AMAZON.StopIntent shut up
+
+AMAZON.CancelIntent cancel
